@@ -8,6 +8,7 @@ namespace Hamming
         public static int Distance(string original, string current)
         {
             int hammingDistance = 0;
+            // Throwing exception
             if (current == null)
             {
                 throw new ArgumentNullException("current");
